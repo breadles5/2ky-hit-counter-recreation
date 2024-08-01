@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    background-color: black;
+}
+
+#overlay {
+    position: absolute;
+    color: white;
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    transition: opacity 0.5s;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-top: 10px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-items: left;
+    margin: 0 12px;
+}
+
+.bar {
+    width: 100%;
+    min-width: 85px;
+    height: 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    background-color: white;
+    transition: background-color 0.5s;
+}
+.inline-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}
+.label {
+    color: white;
+    grid-column: auto;
+    margin-bottom: 10px;
+    margin-inline: 8px;
+}
+
+.performance-label {
+    color: orange;
+}
+
+.lightblue-label {
+    color: lightblue;
+}
+
+.yellow-label {
+    color: yellow;
+}
+
+.limegreen-label {
+    color: limegreen;
+}
+
+.dodgerblue-label {
+    color: dodgerblue;
+}
+
+.violetblue-label {
+    color: blueviolet;
+}
+
+.red-label {
+    color: red;
+}
+.spacer {
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    width: 15px;
+}
+#current-performance {
+    margin-right: 4px;
+}
+#performance {
+    margin-left: 4px;
+}
+.odometer {
+    grid-column: auto;
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    justify-self: left;
+    color: white;
+}

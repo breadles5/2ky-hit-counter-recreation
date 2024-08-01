@@ -1,0 +1,6 @@
+Usecase: OBS-overlay
+Name:  2ky-hit-counter-recreation
+Author:  breadles
+CompatibleWith:  tosu
+Resolution:  850 x 95
+authorLinks:  https://github.com/breadles5/

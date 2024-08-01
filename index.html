@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OBS Stream Overlay</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/odometer-theme-default.min.css" />
+</head>
+<body>
+    <div id="overlay">
+        <div class="container">
+            <div class="bar" id="performance-bar"></div>
+            <div class="label performance-label">Performance</div>
+            <div class="inline-container">
+                <div class="odometer" id="current-performance">0</div>
+                <div class="spacer">/</div>
+                <div class="odometer" id="performance">0</div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="bar" id="320-bar"></div>
+            <div class="label lightblue-label">320</div>
+            <div class="odometer" id="hit-320">0</div>
+        </div>
+        <div class="container">
+            <div class="bar" id="300-bar"></div>
+            <div class="label yellow-label">300</div>
+            <div class="odometer" id="hit-300">0</div>
+        </div>
+        <div class="container">
+            <div class="bar" id="200-bar"></div>
+            <div class="label limegreen-label">200</div>
+            <div class="odometer" id="hit-200">0</div>
+        </div>
+        <div class="container">
+            <div class="bar" id="100-bar"></div>
+            <div class="label dodgerblue-label">100</div>
+            <div class="odometer" id="hit-100">0</div>
+        </div>
+        <div class="container">
+            <div class="bar" id="50-bar"></div>
+            <div class="label violetblue-label">50</div>
+            <div class="odometer" id="hit-50">0</div>
+        </div>
+        <div class="container">
+            <div class="bar" id="miss-bar"></div>
+            <div class="label red-label">Miss:</div>
+            <div class="odometer" id="hit-miss">0</div>
+        </div>
+    </div>
+    <script src="./js/odometer.min.js"></script>
+    <script src="./js/countUp.min.js"></script>
+    <script src="./js/main.js" type="module"></script>
+</body>
+</html>
